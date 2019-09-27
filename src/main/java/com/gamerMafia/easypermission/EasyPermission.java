@@ -49,7 +49,7 @@ public final class EasyPermission {
             singlePermissionTon.setListener(mListener);
             return this;
         }
-        public Builder startPayment() {
+        public Builder startPermission() {
             Intent payIntent  = new Intent(activity, PermissionActivity.class);
             payIntent.putExtra("permission", permission);
             activity.startActivity(payIntent);
