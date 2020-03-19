@@ -7,7 +7,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import androidx.appcompat.app.AppCompatActivity;
+import android.support.v7.app.appcompatactivity;
 
 import com.gamerMafia.easypermission.EasyPermission;
 import com.gamerMafia.easypermission.listener.PermissionStatusListener;
